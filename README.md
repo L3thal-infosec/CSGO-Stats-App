@@ -1,9 +1,4 @@
 
-
-
-
-
-
 <img src="https://github.com/L3thal-infosec/CSGO-Stats-App/blob/master/assets/images/csgoicon.png?raw=true" alt="Demo Picture" height="300" /> 			
 
 #	CSGO STATS APP
@@ -32,7 +27,11 @@
   <b> STATS PAGE </b>
 </p>
 
-
+```
+http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=API_KEY&steamids=STEAM_ID&format=json
+```
+Replace API_KEY with your custom API Key generated from [Steam Dev](https://steamcommunity.com/dev).
+Replae STEAM_ID with your steam Profile ID.
 ## ABOUT THE APP
 
 This is a CSGO stats app I made for my Gaming Clan.
